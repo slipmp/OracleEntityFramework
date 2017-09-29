@@ -1,5 +1,5 @@
-Software Engineering 
-I have used this solution for an internal presentation at the company I work for, Dealertrack.
+# Oracle and Entity Framework Solution
+I have used this solution for an internal presentation at the company I work for called Dealertrack.
 
 SE CoP (Software Engineering Community of Practice) - Unit Testing and Moq Frameworks Presentation
 

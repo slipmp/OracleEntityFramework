@@ -1,18 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using DTN.SoftwareEngineering.Data.Interfaces;
 using DTN.SoftwareEngineering.Domain;
 
-namespace DTN.SoftwareEngineering.Data
+namespace DTN.SoftwareEngineering.Data.EntityFramework
 {
-    public interface IApplicationConfigurationRepository
-    {
-        List<Domain.ApplicationConfiguration> GetList(int take);
-        ApplicationConfiguration GetTaxActivationDate();
-    }
-
     public class ApplicationConfigurationRepository : IApplicationConfigurationRepository
     {
         public List<Domain.ApplicationConfiguration> GetList(int take)

@@ -1,9 +1,7 @@
 ﻿using System.Data.Entity;
-using DTN.SoftwareEngineering.Domain;
-using Oracle.ManagedDataAccess.Client;
-using ApplicationConfiguration = DTN.SoftwareEngineering.Data.EntityTypeConfiguration.ApplicationConfiguration;
+using ApplicationConfiguration = DTN.SoftwareEngineering.Data.EntityFramework.EntityTypeConfiguration.ApplicationConfiguration;
 
-namespace DTN.SoftwareEngineering.Data
+namespace DTN.SoftwareEngineering.Data.EntityFramework
 {
     /// <summary>
     /// This class must be internal, because it should not be available on the UI projects.

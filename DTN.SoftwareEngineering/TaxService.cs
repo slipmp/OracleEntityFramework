@@ -1,5 +1,5 @@
 ﻿using System;
-using DTN.SoftwareEngineering.Data;
+using DTN.SoftwareEngineering.Data.Interfaces;
 using DTN.SoftwareEngineering.Domain;
 
 namespace DTN.SoftwareEngineering.Core

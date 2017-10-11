@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity.ModelConfiguration;
 
-namespace DTN.SoftwareEngineering.Data.EntityTypeConfiguration
+namespace DTN.SoftwareEngineering.Data.EntityFramework.EntityTypeConfiguration
 {
     /// <summary>
     /// This is where we can Set up the Entity "ApplicationConfiguration" in order to make EF understand it

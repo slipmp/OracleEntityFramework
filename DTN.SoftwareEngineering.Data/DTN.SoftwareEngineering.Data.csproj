@@ -63,9 +63,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EntityTypeConfiguration\ApplicationConfiguration.cs" />
-    <Compile Include="ApplicationContext.cs" />
-    <Compile Include="ApplicationConfigurationRepository.cs" />
+    <Compile Include="DTNGlobalSettings.cs" />
+    <Compile Include="EntityFramework\EntityTypeConfiguration\ApplicationConfiguration.cs" />
+    <Compile Include="EntityFramework\ApplicationContext.cs" />
+    <Compile Include="EntityFramework\ApplicationConfigurationRepository.cs" />
+    <Compile Include="Interfaces\IApplicationConfigurationRepository.cs" />
+    <Compile Include="JSON\ApplicationConfigurationRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -75,11 +78,16 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DTN.SoftwareEngineering.Core.Data.JSON\DTN.SoftwareEngineering.Core.Data.JSON.csproj">
+      <Project>{72f5957f-debe-4382-a080-07c98179a26e}</Project>
+      <Name>DTN.SoftwareEngineering.Core.Data.JSON</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DTN.SoftwareEngineering.Domain\DTN.SoftwareEngineering.Domain.csproj">
       <Project>{2EC3A1B1-C099-4AF0-87D9-A6B1678A5439}</Project>
       <Name>DTN.SoftwareEngineering.Domain</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

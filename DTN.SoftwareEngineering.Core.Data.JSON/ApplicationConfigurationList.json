@@ -1,0 +1,26 @@
+﻿[
+  {
+    "Id": 1,
+    "LenderCode": "BMO",
+    "AssetCode": "AU",
+    "ProductCode": "LOAN",
+    "ConfigKey": "OEM_API_USERNAME",
+    "ConfigValue": "ThisIsAnUserNameExample"
+  },
+  {
+    "Id": 2,
+    "LenderCode": "RBC",
+    "AssetCode": "AU",
+    "ProductCode": "LEASE",
+    "ConfigKey": "RBC_ASSETVALUATION_CONFIG",
+    "ConfigValue": "False"
+  },
+  {
+    "Id": 2,
+    "LenderCode": "BNS",
+    "AssetCode": "AU",
+    "ProductCode": "LEASE",
+    "ConfigKey": "PEINewTaxActivationDate",
+    "ConfigValue": "2016-01-14"
+  }
+]

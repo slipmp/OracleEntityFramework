@@ -34,6 +34,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac, Version=4.6.1.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.4.6.1\lib\net45\Autofac.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
@@ -69,6 +73,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DTN.SoftwareEngineering.Core.Data.JSON\DTN.SoftwareEngineering.Core.Data.JSON.csproj">
+      <Project>{72F5957F-DEBE-4382-A080-07C98179A26E}</Project>
+      <Name>DTN.SoftwareEngineering.Core.Data.JSON</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DTN.SoftwareEngineering.Data\DTN.SoftwareEngineering.Data.csproj">
       <Project>{7351966a-8c3c-4e3e-9a96-7c6f15636b95}</Project>
       <Name>DTN.SoftwareEngineering.Data</Name>
@@ -76,6 +84,14 @@
     <ProjectReference Include="..\DTN.SoftwareEngineering.Domain\DTN.SoftwareEngineering.Domain.csproj">
       <Project>{2ec3a1b1-c099-4af0-87d9-a6b1678a5439}</Project>
       <Name>DTN.SoftwareEngineering.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTN.SoftwareEngineering.IoC\DTN.SoftwareEngineering.IoC.csproj">
+      <Project>{9A9B294D-376D-4DFF-A783-1C5BD827C42D}</Project>
+      <Name>DTN.SoftwareEngineering.IoC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTN.SoftwareEngineering\DTN.SoftwareEngineering.Core.csproj">
+      <Project>{525B753E-31FE-4A05-89CB-77F88CBCC292}</Project>
+      <Name>DTN.SoftwareEngineering.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
